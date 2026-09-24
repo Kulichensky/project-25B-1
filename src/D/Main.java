@@ -10,8 +10,8 @@ public class Main {
 
         int k = scanner.nextInt();
 
-        int remainder = k % n;
+        int a = k % n;
 
-        System.out.println(remainder);
+        System.out.println(a);
     }
 }

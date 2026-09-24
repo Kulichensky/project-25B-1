@@ -8,15 +8,15 @@ public class Main {
 
         int n = scanner.nextInt();
 
-        int lessonTime = n * 45;
+        int lessontime = n * 45;
 
-        int breakTime = (n / 2) * 5 + ((n - 1) / 2) * 15;
+        int breaktime = (n / 2) * 5 + ((n - 1) / 2) * 15;
 
-        int totalMinutes = lessonTime + breakTime;
+        int totalminutes = lessontime + breaktime;
 
-        int hours = 9 + totalMinutes / 60;
+        int hours = 9 + totalminutes / 60;
 
-        int minutes = totalMinutes % 60;
+        int minutes = totalminutes % 60;
 
         System.out.println(hours + " " + minutes);
     }

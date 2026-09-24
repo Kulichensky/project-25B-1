@@ -9,8 +9,8 @@ public class Main {
         int v = scanner.nextInt();
         int t = scanner.nextInt();
 
-        int position = ((v * t) % 109 + 109) % 109;
+        int a = ((v * t) % 109 + 109) % 109;
 
-        System.out.println(position);
+        System.out.println(a);
     }
 }

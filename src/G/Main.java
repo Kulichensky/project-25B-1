@@ -8,8 +8,8 @@ public class Main {
 
         int n = scanner.nextInt();
 
-        int tens = n / 10;
+        int a = n / 10;
 
-        System.out.println(tens);
+        System.out.println(a);
     }
 }

@@ -10,11 +10,11 @@ public class Main {
         int b = scanner.nextInt();
         int n = scanner.nextInt();
 
-        int totalKopecks = (a * 100 + b) * n;
+        int kopeiki = (a * 100 + b) * n;
 
-        int totalRubles = totalKopecks / 100;
-        int remainingKopecks = totalKopecks % 100;
+        int Rubli = kopeiki / 100;
+        int Kopeiki = kopeiki % 100;
 
-        System.out.println(totalRubles + " " + remainingKopecks);
+        System.out.println(Rubli + " " + Kopeiki);
     }
 }

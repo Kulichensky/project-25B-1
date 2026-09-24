@@ -7,9 +7,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int n = scanner.nextInt();
+        int a = n % 10;
 
-        int lastDigit = n % 10;
-
-        System.out.println(lastDigit);
+        System.out.println(a);
     }
 }
